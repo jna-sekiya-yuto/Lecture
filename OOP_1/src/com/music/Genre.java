@@ -7,6 +7,7 @@ public enum Genre {
 
     POP("ポップ"),
     ROCK("ロック");
+
     private String name;
 
     // コンストラクタ

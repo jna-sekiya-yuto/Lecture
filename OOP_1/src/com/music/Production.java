@@ -29,6 +29,6 @@ public class Production {
     @Override
     // 曲名、ジャンル名を必ず表示し、ミリオンセラー作品の場合は「ミリオンセラー作品」も表示する
     public String toString() {
-        return "曲名：" + name + "　ジャンル:" + genre.getName() + (isMillionSeller? "　ミリオンセラー作品" : "");
+        return "曲名：" + name + "　ジャンル:" + genre.getName() + (isMillionSeller ? "　ミリオンセラー作品" : "");
     }
 }

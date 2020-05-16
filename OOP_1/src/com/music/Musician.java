@@ -48,8 +48,8 @@ public class Musician {
     // このミュージシャンの全作品を表示する
     public void printAllProductions() {
         System.out.println(name + "の作品は、");
-        for (Production production: productions) {
-            System.out.println(production.toString());
+        for (Production production : productions) {
+            System.out.println(production);
         }
     }
 
