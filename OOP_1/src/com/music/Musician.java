@@ -26,7 +26,7 @@ public class Musician {
 
     // ミュージシャンの作品群に新しく作品を追加するメソッド
     // 新曲リリースの際に使用されるイメージ
-    public void addProductions(Production production) {
+    public void addProduction(Production production) {
         productions.add(production);
     }
 

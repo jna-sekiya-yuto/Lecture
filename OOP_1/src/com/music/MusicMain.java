@@ -14,9 +14,9 @@ public class MusicMain {
         Production owariNakiTabi = new Production("終わりなき旅", Genre.POP);
         Production hanabi = new Production("HANABI", Genre.ROCK);
 
-        mrChildren.addProductions(tomorrowNeverKnows);
-        mrChildren.addProductions(owariNakiTabi);
-        mrChildren.addProductions(hanabi);
+        mrChildren.addProduction(tomorrowNeverKnows);
+        mrChildren.addProduction(owariNakiTabi);
+        mrChildren.addProduction(hanabi);
 
         // 「Tomorrow never knows」と「終わりなき旅」がミリオンを達成！
         tomorrowNeverKnows.becomeMillionSeller();
@@ -27,8 +27,8 @@ public class MusicMain {
         Musician aimyon = new Musician("あいみょん");
 
         // あいみょんが2曲をリリースしました
-        aimyon.addProductions(new Production("マリーゴールド", Genre.POP));
-        aimyon.addProductions(new Production("君はロックを聴かない", Genre.ROCK));
+        aimyon.addProduction(new Production("マリーゴールド", Genre.POP));
+        aimyon.addProduction(new Production("君はロックを聴かない", Genre.ROCK));
 
         // 残念ながらあいみょんのCDはミリオンを達成できませんでした、、
 
