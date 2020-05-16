@@ -6,10 +6,7 @@ package com.music;
 public enum Genre {
 
     POP("ポップ"),
-    ROCK("ロック"),
-    JAZZ("ジャズ"),
-    FUNK("ジャズ");
-
+    ROCK("ロック");
     private String name;
 
     // コンストラクタ
