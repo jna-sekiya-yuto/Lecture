@@ -45,6 +45,17 @@ public class Musician {
         return productions.size();
     }
 
+    /**
+     * そのまま移植してきたらこうなるが、自クラス内ではproductionsに
+     * 直接アクセスできるため以下の書き方の方が読みやすい。
+     *     public void printAllProductions() {
+     *         System.out.println(name + "の作品は、");
+     *         for (int i = 0; i < getProductionCount(); i++) {
+     *             System.out.println(getProduction(i));
+     *         }
+     *     }
+     */
+
     // このミュージシャンの全作品を表示する
     public void printAllProductions() {
         System.out.println(name + "の作品は、");
