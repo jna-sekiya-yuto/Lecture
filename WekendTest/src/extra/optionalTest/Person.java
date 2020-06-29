@@ -1,4 +1,4 @@
-package test7.extraTest.optionalTest;
+package extra.optionalTest;
 
 public class Person {
     // 名前

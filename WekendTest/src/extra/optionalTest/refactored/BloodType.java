@@ -1,4 +1,6 @@
-package test7.extraTest.optionalTest;
+package extra.optionalTest.refactored;
+
+import java.util.Optional;
 
 public enum BloodType {
     A("几帳面"),
@@ -27,18 +29,18 @@ public enum BloodType {
      *
      * @return 血液型
      */
-    public BloodType findCompatibleType() {
+    public Optional<BloodType> findCompatibleType() {
         switch (this) {
             case A:
-                return O;
+                return Optional.of(O);
             case B:
-                return AB;
+                return Optional.of(AB);
             case O:
-                return A;
+                return Optional.of(A);
             case AB:
-                return B;
+                return Optional.of(B);
             default:
-                return null;
+                return Optional.empty();
         }
     }
 }

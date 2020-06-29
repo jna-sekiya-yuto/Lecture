@@ -1,4 +1,4 @@
-package test7.extraTest.optionalTest.refactored;
+package extra.optionalTest.refactored;
 
 public class Main {
     public static void main(String[] args) {
